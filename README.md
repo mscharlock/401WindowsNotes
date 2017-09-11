@@ -6,3 +6,12 @@ Don't be like me and inflict random hassles onto yourself when 401 is already ch
 + HTTPie is hard to install without some help or reading multiple StackOverflows and watching Youtube. Just skip it and use curl and/or Postman to test HTTP req/res to your APIs.
 + Mongo: You'll need to follow these instructions: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/. For some reason, Mongo's site where you can download Mongo doesn't give you instructions, it just assumes you somehow know to look for this and/or you are a wizard? /
 
+## The Linux Subsystem
+Despite the confusing instructions on MSFT's own site about installing the Linux Subsystem, it can be done! 
++ Open PowerShell ISE (type Powershell ISE into your search bar) 
++ Copy in: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux and run that
++ That should install the Subsystem, but then you have to make sure Linux is all good by doing: 
+    + sudo apt update
+    + sudo apt upgrade
++ Then I went ahead and installed NPM/Node using the 301 prework instructions for linux
++ Bash may start at a weird spot, which you can fix by cd'ing to the right spot. cd /mnt/C/ will get you to your C drive, then navigate from there
