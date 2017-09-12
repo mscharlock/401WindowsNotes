@@ -8,7 +8,8 @@ Your best bet is to install the Linux Subsystem on Windows. This allows you to u
 Then...
 + Open PowerShell ISE (type Powershell ISE into your search bar) 
 + Copy in: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux and run that
-+ That should install the Subsystem, but then you have to make sure Linux is all good by doing: 
++ It will ask you to come up with a username/password, do that
++ Now you should have the Linux Subsystem installed, but then you have to make sure Linux is all good by doing: 
     + sudo apt update
     + sudo apt upgrade
 + Then I went ahead and installed NPM/Node using the 301 prework instructions for linux
