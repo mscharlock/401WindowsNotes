@@ -13,11 +13,11 @@ Then...
     + sudo apt update
     + sudo apt upgrade
 + Then I went ahead and installed NPM/Node using the 301 prework instructions for linux
++ Now install nvm
 + Bash may start at a weird spot, which you can fix by cd'ing to the right spot. cd /mnt/C/ will get you to your C drive, then navigate from there
 
 ## Installing Bcrypt with Linux Subsystem
-This weirdly works for reasons that are mysterious to me: 
-+ sudo apt-get install bcrypt
+We solved this problem by basically getting npm, node, nvm and gyp installed. In nvm, we upgraded to v8 of Node. That seemed to fix the problem but your mileage may vary.
 
 ## What if I can't get the subsystem to install? Here's what you need to know
 + In the "create-a-chatroom" assignment, you will need to download something called [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) & enable [Windows Telnet](https://kb.ctera.com/article/how-to-open-a-telnet-session-on-windows-7-or-windows-8-os-16.html) in order to test your chat server. Windows Telnet is pretty much the worst (it has this initial configuration that enters one keystroke at a time so it's basically unusable and you feel like you're caught in the Matrix) so you have to use PuTTY with Telnet in order to do anything. Enter the correct configuration into PuTTY (your hostname, port, then select Telnet as the connection type). Do yourself a favor and set this config as a saved session because you will be opening and closing this thing a lot. 
