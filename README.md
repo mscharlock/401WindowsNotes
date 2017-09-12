@@ -15,3 +15,7 @@ Despite the confusing instructions on MSFT's own site about installing the Linux
     + sudo apt upgrade
 + Then I went ahead and installed NPM/Node using the 301 prework instructions for linux
 + Bash may start at a weird spot, which you can fix by cd'ing to the right spot. cd /mnt/C/ will get you to your C drive, then navigate from there
+
+## Installing Bcrypt
+This weirdly works for reasons that are mysterious to me: 
++ sudo apt-get install bcrypt
