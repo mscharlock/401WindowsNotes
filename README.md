@@ -6,7 +6,7 @@ Your best bet is to install the Linux Subsystem on Windows. This allows you to u
 (Open Settings -> Update and Security -> For developers).
 
 Then...
-+ Open PowerShell ISE (type Powershell ISE into your search bar) 
++ Open PowerShell ISE (type Powershell ISE into your search bar), run it as an Admin (right click)
 + Copy in: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux and run that
 + It will ask you to come up with a username/password, do that
 + Now you should have the Linux Subsystem installed, but then you have to make sure Linux is all good by doing: 
